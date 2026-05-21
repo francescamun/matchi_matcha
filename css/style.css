@@ -27,7 +27,6 @@ header nav ul {
 }
 
 header nav ul li a {
-    font-family: 'Franklin Gothic Medium', 'Arial Black', sans-serif;
     background-color: #b9bc90;
     border-radius: 100px;
     position: relative;
@@ -77,7 +76,6 @@ header nav ul li a {
     right: 5%;
     transform: translateY(-50%);
     text-align: right;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 32px;
     font-style: italic;
     line-height: 150%;
@@ -109,7 +107,6 @@ a {
 
 .descrizione_testo p {
     width: 659px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 24px;
     line-height: 150%;
     margin: 0px;
@@ -142,7 +139,6 @@ a {
 }
 
 .categorie_gruppo h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 text-transform: uppercase;
 font-size: 36px;
 margin: 0px;
@@ -171,12 +167,10 @@ margin: 0px;
 }
 
 .categorie_polveri div h2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #B9BC90;
 }
 
 .categorie_polveri div p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     width: 200px;
     text-align: center;
@@ -213,7 +207,6 @@ margin: 0px;
 }
 
 .polveri_griglia div p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     letter-spacing: -1.1%;
     line-height: 150%;
@@ -259,12 +252,10 @@ margin: 0px;
 }
 
 .ricetta_contenuto div h3 {
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-size: 24px;
 }
 
 .ricetta_contenuto div p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
 }
 
@@ -274,7 +265,6 @@ footer {
     background-color: #B9BC90;
     justify-content: space-around;
     padding: 20px 0px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 14px;
 }
 
@@ -365,6 +355,7 @@ footer a {
 header > nav {
     display: none;
 }
+    /*ia*/
 
 .hamburger {
     display: flex;
@@ -434,7 +425,8 @@ header > nav {
 #menu-mobile ul li:hover {
     background-color: #b9bc9020;
 }
-
+/*ia*/
+    
     header img {
         width: 180px;
     }
@@ -467,7 +459,7 @@ header > nav {
     .descrizione_testo {
     display: contents;
 }
-
+/*ia*/
 .descrizione_testo p:first-child {
     order: 1;
 }
@@ -479,6 +471,7 @@ header > nav {
 .descrizione_testo p:last-child {
     order: 3;
 }
+    /*ia*/
 
 .descrizione_gruppo {
     display: flex;
@@ -609,7 +602,6 @@ header > nav {
 }
 
 .testo_introduttivo div p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 17px;
     color: #B9BC90;
 }
@@ -626,7 +618,6 @@ header > nav {
     flex-direction: row;
     justify-content: space-around;
     border-radius: 24px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 94px;
     color: white;
     align-items: center;
@@ -664,7 +655,6 @@ header > nav {
 
 .social h3 {
     text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 36px;
     color: #b9bc90;
 }
@@ -714,7 +704,6 @@ header > nav {
 }
 
 .instagram .testo p, .facebook .testo p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
     color: #555731;
     margin: 0;
@@ -817,7 +806,6 @@ header > nav {
 }
 
 .titolo_pagina_tea div h2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
     margin: 0px;
     display: flex;
@@ -832,7 +820,6 @@ header > nav {
 }
 
 .sottotitolo p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
 }
 
@@ -845,6 +832,7 @@ header > nav {
     border-radius: 24px;
 }
 
+/*ia*/
 .carosello {
     position: relative;
     overflow: hidden;
@@ -924,6 +912,7 @@ header > nav {
 #s1:checked ~ .dots label:nth-child(1),
 #s2:checked ~ .dots label:nth-child(2),
 #s3:checked ~ .dots label:nth-child(3) { background: white; }
+/*ia*/ 
 
 .bottoni_tea {
     margin: 60px 116px;
@@ -960,7 +949,6 @@ header > nav {
 }
 
 .bottoni_tea div p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     margin: 0px;
 }
@@ -980,7 +968,6 @@ header > nav {
 }
 
 .descrizione_normale_tea, .descrizione_grassetto_tea {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 17px;
     line-height: 50%;
 }
@@ -1056,7 +1043,6 @@ header > nav {
 }
 
 .titolo_pagina_fruit div h2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
     margin: 0px;
     display: flex;
@@ -1071,7 +1057,6 @@ header > nav {
 }
 
 .sottotitolo p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
 }
 
@@ -1199,7 +1184,6 @@ header > nav {
 }
 
 .bottoni_fruit div p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     margin: 0px;
 }
@@ -1218,7 +1202,6 @@ header > nav {
 }
 
 .descrizione_normale_fruit, .descrizione_grassetto_fruit {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 17px;
     line-height: 50%;
 }
@@ -1295,7 +1278,6 @@ header > nav {
 }
 
 .titolo_pagina_plant div h2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
     margin: 0px;
     display: flex;
@@ -1310,7 +1292,6 @@ header > nav {
 }
 
 .sottotitolo p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
 }
 
@@ -1438,7 +1419,6 @@ header > nav {
 }
 
 .bottoni_plant div p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     margin: 0px;
 }
@@ -1457,7 +1437,6 @@ header > nav {
 }
 
 .descrizione_normale_plant, .descrizione_grassetto_plant {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 17px;
     line-height: 50%;
 }
@@ -1535,13 +1514,11 @@ header > nav {
 }
 
 .titolo_pagina_tea div h2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
     margin: 0px;
 }
 
 .titolo_pagina_tea div p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 17px;
     color: #761414;
     margin: 0px;
@@ -1553,7 +1530,6 @@ header > nav {
 }
 
 .sottotitolo p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
 }
 
@@ -1573,7 +1549,6 @@ header > nav {
 }
 
 .descrizione_polvere p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
 }
 
@@ -1586,7 +1561,6 @@ header > nav {
 }
 
 .descrizione_centrale_tea h3 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 28px;
     color: #B9AE90;
     margin: 0px;
@@ -1594,7 +1568,6 @@ header > nav {
 }
 
 .descrizione_centrale_tea p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
     margin: 0px;
     width: 50%;
@@ -1651,14 +1624,13 @@ header > nav {
 }
 
 .storia_testo h3 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
     font-size: 30px;
     margin: 0px;
     color: white;
 }
 
 .storia_testo p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
     color: white;
     margin: 0px;
@@ -1677,7 +1649,6 @@ header > nav {
     
 
 .benefici_tea h3, .benefici_tea p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0px;
       text-align: left;
 }
@@ -1694,7 +1665,6 @@ header > nav {
 }
 
 .benefici_tea ul {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
     text-align: left;
     padding: 0;
@@ -1868,13 +1838,11 @@ header > nav {
 }
 
 .titolo_pagina div h2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
     margin: 0px;
 }
 
 .titolo_pagina div p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 17px;
     color: #761414;
     margin: 0px;
@@ -1888,7 +1856,6 @@ header > nav {
 }
 
 .sottotitolo p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
 }
 
@@ -1908,7 +1875,6 @@ header > nav {
 }
 
 .descrizione_polvere p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
 }
 
@@ -1921,7 +1887,6 @@ header > nav {
 }
 
 .descrizione_centrale h3 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 28px;
     color: #F0DDA0;
     margin: 0px;
@@ -1929,7 +1894,6 @@ header > nav {
 }
 
 .descrizione_centrale p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
     margin: 0px;
     width: 50%;
@@ -1985,14 +1949,12 @@ header > nav {
 }
 
 .storia_testo h3 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
     margin: 0px;
     color: white;
 }
 
 .storia_testo p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
     color: white;
     margin: 0px;
@@ -2009,7 +1971,6 @@ header > nav {
 }
 
 .benefici h3, .benefici p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0px;
     text-align: left !important;
 }
@@ -2026,7 +1987,6 @@ header > nav {
 }
 
 .benefici ul {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
     text-align: left;
     padding: 0;
@@ -2204,13 +2164,11 @@ text-align: left !important;
 }
 
 .titolo_pagina_fruit div h2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
     margin: 0px;
 }
 
 .titolo_pagina_fruit div p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 17px;
     color: #761414;
     margin: 0px;
@@ -2222,7 +2180,6 @@ text-align: left !important;
 }
 
 .sottotitolo p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
 }
 
@@ -2242,7 +2199,6 @@ text-align: left !important;
 }
 
 .descrizione_polvere p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
 }
 
@@ -2255,7 +2211,7 @@ text-align: left !important;
 }
 
 .descrizione_centrale_fruit h3 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
     font-size: 28px;
     color: #EEA0A7;
     margin: 0px;
@@ -2263,7 +2219,6 @@ text-align: left !important;
 }
 
 .descrizione_centrale_fruit p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
     margin: 0px;
     width: 50%;
@@ -2319,14 +2274,12 @@ text-align: left !important;
 }
 
 .storia_testo h3 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
     margin: 0px;
     color: white;
 }
 
 .storia_testo p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
     color: white;
     margin: 0px;
@@ -2343,7 +2296,6 @@ text-align: left !important;
 }
 
 .benefici_fruit h3, .benefici_fruit p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0px;
        text-align: left;
 }
@@ -2360,7 +2312,6 @@ text-align: left !important;
 }
 
 .benefici_fruit ul {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
     padding: 0;
     margin: 16px auto 0px;
