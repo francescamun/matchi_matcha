@@ -985,12 +985,6 @@ header > nav {
     line-height: 50%;
 }
 
-.descrizione_grassetto_tea {
-    font-weight: bold;
-    align-items: center;
-    text-align: left;
-}
-
 
 @media (min-width: 769px) and (max-width: 1200px) {
 
@@ -1229,9 +1223,6 @@ header > nav {
     line-height: 50%;
 }
 
-.descrizione_grassetto_fruit {
-    font-weight: bold;
-}
 
 
 @media (min-width: 769px) and (max-width: 1200px) {
@@ -1469,11 +1460,6 @@ header > nav {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 17px;
     line-height: 50%;
-}
-
-.descrizione_grassetto_plant {
-    font-weight: bold;
-    text-align: left;
 }
 
 /*responsive*/ 
